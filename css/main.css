@@ -1,43 +1,35 @@
 /* Topo */
 
-body {
-    -webkit-transition: opacity 2s;
-    transition: opacity 0.5s;
-    opacity: 0;
-    pointer-events: none;
-}
-
-body.pageLoaded {
-    opacity: 1;
-    pointer-events: all;
-}
-
 .bg-dark {
-    background-color: #4399ef !important;
+    background-color: rgb(56, 69, 255) !important;
 }
 
-.bg-dark a,
-.bg-dark a:active {
-    color: rgba(255, 255, 255, .7) !important;
+.nav-link {
+    color: #fafafa !important;
+
 }
 
-.bg-dark a:hover {
-    color: rgba(255, 255, 255, .5) !important;
+.dropdown-menu {
+    background-color: rgb(56, 69, 255) !important;
+
 }
 
-.navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.4) !important;
-    color: rgba(255, 255, 255, 0.2) !important;
+.dropdown-item{
+    color: #fafafa !important;
 }
 
-.navbar-toggler:hover {
-    border-color: rgba(255, 255, 255, 0.5) !important;
-    color: rgba(255, 255, 255, 0.5) !important;
+.dropdown-item:hover {
+    background-color: #2c8beb !important;
 }
 
-.navbar-toggler.collapsed {
-    border-color: rgba(255, 255, 255, 0.7) !important;
-    color: rgba(255, 255, 255, 0.7) !important;
+.btn {
+    background-color: #2c8beb !important;
+    
+}
+
+.btn:hover {
+    background-color: #2c8beb !important;
+
 }
 
 .navbar.fixed-top #loginclick {
@@ -55,7 +47,7 @@ body.pageLoaded {
 }
 
 .fixed-top .form-inline span {
-    color: #f8f8f8;
+    color: #fafafa;
     font-weight: bolder;
 }
 
