@@ -1,7 +1,7 @@
 /* Topo - Barra de navegacao */
 
 .bg-dark {
-    background-color: rgb(56, 69, 255) !important;
+    background-color: #0960b0 !important;
 }
 
 .nav-link {
@@ -10,7 +10,7 @@
 }
 
 .dropdown-menu {
-    background-color: rgb(56, 69, 255) !important;
+    background-color: #0960b0 !important;
 
 }
 
@@ -217,6 +217,6 @@
 .card-link a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    color: rgb(34, 38, 255);
+    color: #0960b0;
     font-size: 15px;
 }
